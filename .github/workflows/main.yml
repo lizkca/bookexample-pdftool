@@ -1,5 +1,5 @@
-name: CI
-on:[push]
+name: pdftool application test with Github Action
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
